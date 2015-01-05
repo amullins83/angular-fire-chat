@@ -1,0 +1,16 @@
+<div class="container chat-area">
+	<div class="row" ng-repeat="message in messages">
+		<div class="col-xs-2 col-md-2 col-lg-2"><strong>{{message.user}}</strong>:</div>
+		<div class="col-xs-10 col-md-10 col-lg-10">{{message.text}}</div>
+	</div>
+</div>
+<div class="container input-area">
+	<div class="row">
+		<div class="col-xs-2 col-md-2 col-lg-2">
+			<input type="text" ng-model="user" placeholder="USER"/>
+		</div>
+		<div class="col-xs-10 col-md-10 col-lg-10">
+			<input type="text" ng-model="text" placeholder="MESSAGE (HIT ENTER TO SEND)" ui-keypress="{13:'addMessage()'}" style="width: 100%"/>
+		</div>
+	</div>
+</div>

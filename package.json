@@ -1,0 +1,17 @@
+{
+  "name": "angular-fire-chat",
+  "author": {
+    "name": "Austin Mullins",
+    "email": "austin@mullist.com"
+  },
+  "description": "A starter project for AngularFire",
+  "repository": "https://github.com/amullins83/angular-fire-chat",
+  "devDependencies": {
+    "phantomjs": "*",
+    "karma": "*",
+    "karma-junit-reporter": "*",
+    "karma-jasmine": "*",
+    "protractor": "*",
+    "karma-chrome-launcher": "*"
+  }
+}
